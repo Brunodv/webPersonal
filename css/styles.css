@@ -1,0 +1,499 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+body{
+    background:linear-gradient(rgba(28, 51, 33, 0.5)0%, #000 100%),url("../images/1.jpg");
+    background-attachment:fixed;
+    background-size: cover;
+    color:white;
+}
+#global{
+    margin:10px 50px 0px 50px;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+}
+/*-----*/
+
+
+/*------
+
+#logo{
+    background:linear-gradient(to right, rgb(88, 66, 165),rgb(190, 11, 11));
+    -webkit-background-clip: text;
+    color:transparent;
+}
+
+#cabecera{
+    margin: 30px 50px;
+    color:white;
+    font-size: 20px;
+    font-family: 'Goldman', cursive;
+    display: flex;
+    width: 100%;
+     justify-content: space-between;
+     align-items: center;
+
+}*/
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+#menu{
+    margin-top: 2%;
+    width: 100%;
+    float: right;
+    font-family: 'goldman';
+}
+#menu ul{
+    float: right;
+    display: flex;
+    list-style:none;
+    
+}
+#menu a{
+    text-decoration: none;
+    color:#AAA;
+    display: block;
+    margin-left: 2rem;
+}
+
+/*
+.leftBar{
+    font-size: 40px;
+    font-family: goldman,cursive;
+    float: left;
+    width: 30%;  
+    list-style: none;
+    color:rgb(192, 192, 192);
+
+}
+*/
+/*
+#bienvenido{
+    float: right;
+    margin-top: 7%;
+    width: 100%;
+    height: 200px;
+    
+}
+*/
+
+#bienvenido{
+    font-size:140px ;
+}
+
+#mensaje{
+    width: 55%;
+    text-align: center;
+    margin:0 auto;
+    font-size: 20px;
+    font-family: 'goldman';
+    color:rgb(192,192,192);
+}
+.boton{  
+    margin-top:8px;
+    font-family: 'goldman';
+    color:rgb(192,192,192);
+    background:transparent;
+    border-radius: 50px;
+    width:120px;
+    font-size: 20px;
+    height: 50px;
+}
+
+#empezar{
+    width:10%;
+    margin:0 auto;
+}
+
+svg {
+    display: block;
+    font: 16em 'goldman';
+    width: 100%;
+    height: 280px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #31fdc0;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+
+#pagina1{
+    height: 45rem;
+}
+#pagina2{
+    height:450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+
+}
+
+#contenedorFoto{
+    width: 30%;
+    height: 9.6rem;
+}
+
+#foto {        
+    border-radius: 5rem;
+    border:solid 1px rgb(192,192,192);
+    width: 9.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#parrafo2{
+    width: 35%;
+}
+#parrafo2 p{
+    font-family:'goldman';
+    color:rgb(192,192,192);
+    text-align: justify;
+}
+#tecnologiasB{
+    border-radius: 50px;
+    height: 35px;
+    width: 120px;
+    font-family:'goldman';
+}
+#contactoB{
+    margin-left:calc(50% - 5em);
+    margin-top: 2%;
+    margin-bottom: 15%;
+    border-radius: 50px;
+    height: 2.5em;
+    width: 10em;
+    font-family:'goldman';
+}
+
+
+
+
+/*-----*/
+#tecnologias, #proyectos, #cont{
+    float: left;
+    color:transparent;
+    background:linear-gradient(to right,  rgb(88, 66, 165),rgb(190, 11, 11));
+    -webkit-background-clip: text;
+    font-family: 'Goldman',cursive;
+    margin-bottom: -100px;
+}
+#tecnologias h1, #proyectos h1{
+    font-size: 50px;
+    
+}
+
+#contenedor2 {
+    width: 100%;
+    height: 48rem;
+}
+#contenedor3{
+    width: 100%;
+    height: 30rem;
+}
+#contenedor4{
+    width: 100%;
+    height: 40rem;
+}
+
+.carousel1 .carousel-item{
+    background:transparent;
+}
+.carousel .carousel-item{
+    background:transparent;
+    
+}
+
+#p2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#p2 p{
+    width: 70%;    
+    text-align: justify;
+    font-family: 'goldman';
+    color:rgb(192,192,192);
+    font-size: 19px;
+}
+
+#proyectosB  {
+    border-radius: 50px;
+    height: 30px;
+    width: 180px;
+    font-family:'goldman';
+    margin-left: 10px;
+}
+
+/*-----pagina3 */
+#contenedor3{
+    display: inline-block;
+}
+
+#cajaProy{
+        margin-top: 12rem;
+        display: grid;
+        grid-template-columns: repeat(3, 0.25fr);
+        gap:0.5rem;
+}
+
+
+
+/*----contacto---*/
+#contenedor4{
+display: inline-block;    
+}
+
+#cajaContacto{ 
+margin-top: 10rem;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap:20px;
+
+}
+#formulario, #contenedorRedes{
+    margin-right: 20%;
+    height: 400px;
+    width: 100%;
+}
+
+#redes{
+    margin-top: -12%;
+    margin-left: 12%;
+    height: 100%;
+    width: 65.574%;
+    position: relative;
+}
+
+#formulario label{
+    font-family: 'goldman';
+    font-size: 20px;
+}
+#name, #mail,#message,#subject{
+    color:white;
+}
+
+#formulario textarea{
+    resize: none;
+}
+#enviarB{
+    border-radius: 50px;
+    height: 35px;
+    width: 120px;
+    font-family:'goldman';
+}
+
+#redesB{
+font-family: 'goldman';
+position:absolute;
+top:calc(50% - 2.5rem);
+left:calc(50% - 2.5rem);
+width: 5rem;
+height: 5rem;
+border-radius: 50%;
+}
+#fc,#wts,#inst{
+    font-size: 5rem;
+}
+#fcC{
+    position: absolute;
+    left:calc(50% - 2.5rem);
+    top:0%;
+   
+
+}
+
+
+#wtsC{
+    
+   
+    position: absolute;
+    left:5%;
+    bottom: 11%;
+}
+#instC{
+  
+    position: absolute;
+    right:5%;
+    bottom: 11%;
+}
+
+
+
+#fc{
+    background: radial-gradient(circle at 30% 107%, #bfbbf0 0%, #7c6dbe 5%, #3e4086 45%, #4b42c7 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+#inst{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+#wts{
+    background: radial-gradient(circle at 30% 107%, #adecbd 0%, #50b165 5%, #3d885a 45%, #1d533a 60%, #0a5716 90%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+#bot{
+    width: 100%;
+    margin-top: 4rem;
+    display: block;
+    text-align: center;
+}
+
+
+/*wraper*/
+
+.wrapper {
+    margin-left:20%;
+    max-width: 100%;
+  }
+  
+  .wrap {
+    position: relative;
+    list-style-type: none;
+    height: 0px;
+    max-width: 100%;
+  }
+  .wrap .inner {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 15rem;
+    height: 15rem;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .wrapper:hover .inner{
+    z-index:3;
+  }
+  
+  .wrap .inner .face {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    padding-right: 10%;
+    padding-left: 10%;
+    height: 100%;
+    overflow: hidden;
+    border:1px solid #999;
+    line-height: 80px;
+    font-size: 18px;
+    font-weight:bold;
+    text-align: left;
+    color: #fff;
+    text-shadow:1px 1px 1px #555;
+  }
+  
+  
+  
+  .wrap .inner .back {
+    top: 15rem;
+    width: 15rem;
+    left:0;
+    text-align: right;
+    border:1px solid #EEE;
+    text-shadow:1px 1px 1px #FFF;
+    color:#333
+  }
+  
+  .first .front {
+    background:linear-gradient(rgba(164, 182, 168, 0.5)0%, rgb(48, 47, 47) 100%),url("../images/Sin\ título.png");
+    background-size: 100% 100%;
+}
+  
+  .first .back {
+    background: #44F4DA;
+  }
+  
+  .second .front {
+    background: #F7BA04;
+  }
+  
+  .second .back {
+    background: #44F4DA;
+}
+  
+  .third .front {
+    background: #EA234B;
+  }
+  
+  .third .back {
+    background: #F990EF;
+  }
+
+  #euler{
+      margin-top: 15px;
+      line-height: 16px;
+      text-decoration: none;
+      font-size: 18px;
+      text-align: left;
+      color: black;
+      font-family: 'goldman';
+  }
+ #eulerT{
+     line-height: 250px;
+ }
+ #eulerVer{
+     width: 90px;
+     height: 30px;
+     background-color: #adecbd;
+     border-radius: 20px;
+     font-family: 'goldman';
+     float: right;
+     margin-top: 10px;
+ }
